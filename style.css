@@ -1,0 +1,142 @@
+:root   {
+    --blue: #3A38FF;
+    --black: #000000;
+    --purple: #56548C;
+    --lightblack: #282531;
+    --gray: #585859;
+    --orange: #FD511A;
+    --green: #21B573;
+    --white: #ffffff;
+    --fwbold: 700;
+    --fwextrabold: 800;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwreguler: 400;
+    --fwlight: 300;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--blue);
+}
+
+.big-header {
+    font-weight: var(--fwextrabold);
+    color: var(--black);
+    font-size: 48x;
+    margin: 0;
+    }
+
+.big-header-green {
+        font-weight: var(--fwextrabold);
+        color: var(--green);
+        font-size: 48x;
+        margin: 0;
+        }
+    
+.medium-header {
+    font-weight: var(--fwbold);
+    color: var(--purple);
+    font-size: 36px;
+    margin: 0;
+    }
+
+.small-header {
+    font-weight: var(--fwmedium);
+    font-size: 24px;
+    margin: 0;
+    }
+
+.primary-copy {
+    font-size: 16px;
+    font-weight: var(--fwreguler);
+    line-height: 28px;
+    color: var(--gray);
+    }
+
+.primary-orange {
+        font-size: 16px;
+        font-weight: var(--fwreguler);
+        line-height: 28px;
+        color: var(--orange);
+        }
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+.btn-primary {
+    padding: 12px 36px 12px 36px;
+    background: var(--green);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--fwreguler);
+    border-radius: 30px;
+    border: 0;
+}
+
+.btn-secondary {
+    padding: 12px 36px 12px 36px;
+    background: var(--gray);
+    color: var(--white) !important;
+    font-size: 16px;
+    font-weight: var(--fwreguler);
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-secondary:hover {
+    background: var(--lightblack);
+    color: var(--white) !important;
+}
+
+.navbar-nav .nav-item a:hover{
+    color: var(--black);
+    transition: all 0.3s ease;
+    font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a {
+    color: var(--black);
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: var(--fwreguler);
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: var(--fwextrabold);
+    font-size: 24px;
+    color: var(--purple);
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+}
+
+.custom-navbar {
+    padding: 30px;
+    background: var(--white);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+}
