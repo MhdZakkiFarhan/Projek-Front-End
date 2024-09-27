@@ -18,7 +18,22 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: var(--blue);
+    background: var(--white);
+}
+
+.container-smallcard {
+    width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid red;
+}
+
+.small-card {
+    flex-basis: 25%;
+    background: red;
+
 }
 
 .big-header {
